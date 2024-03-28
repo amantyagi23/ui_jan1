@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url(WA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: aquamarine;*/
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.row_1 {
+  border: 2px transparent;
+  width: 20%;
+  height: 70%;
+  margin: 5%;
+  background-color: rgb(150, 160, 167, 0.5);
+}
+
+.col_1 {
+  width: 100%;
+  height: 100%;
+}
+
+.row_1 img {
+  width: 150px;
+  height: 150px;
+  margin-left: 19%;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+.col_1 .day {
+  font-size: 45px;
+  color: cadetblue;
+  margin-top: 5%;
+}
+
+.temp {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.details {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: yellowgreen;
+}
+
+.details_1 {
+  font-size: 20px;
+}
+
+.details_2 {
+  font-size: 20px;
+}
+
+.details_3 {
+  font-size: 20px;
+}
